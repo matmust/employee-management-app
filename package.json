@@ -1,0 +1,29 @@
+{
+  "name": "employee-management-app",
+  "version": "1.0.0",
+  "description": "Employee Management Application using LitElement",
+  "main": "index.js",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "test": "web-test-runner --coverage",
+    "test:watch": "web-test-runner --watch"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "@vaadin/router": "^1.7.5",
+    "lit": "^3.1.2"
+  },
+  "devDependencies": {
+    "@esm-bundle/chai": "^4.3.4-fix.0",
+    "@open-wc/testing": "^2.5.33",
+    "@open-wc/testing-helpers": "^3.0.1",
+    "@web/test-runner": "^0.20.2",
+    "@web/test-runner-commands": "^0.9.0",
+    "@web/test-runner-playwright": "^0.11.0",
+    "sinon": "^9.2.4",
+    "vite": "^5.1.4"
+  }
+}

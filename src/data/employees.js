@@ -1,0 +1,222 @@
+export const employees = [
+  {
+    id: '1',
+    firstName: 'Alex',
+    lastName: 'Turner',
+    dateOfEmployment: '15/03/2021',
+    dateOfBirth: '12/05/1991',
+    phone: '+90 532 987 65 43',
+    email: 'alex.turner@example.com',
+    department: 'Tech',
+    position: 'Senior'
+  },
+  {
+    id: '2',
+    firstName: 'Sofia',
+    lastName: 'Rodriguez',
+    dateOfEmployment: '20/07/2022',
+    dateOfBirth: '08/11/1993',
+    phone: '+90 532 876 54 32',
+    email: 'sofia.rodriguez@example.com',
+    department: 'Analytics',
+    position: 'Medior'
+  },
+  {
+    id: '3',
+    firstName: 'Marcus',
+    lastName: 'Chen',
+    dateOfEmployment: '10/01/2023',
+    dateOfBirth: '25/03/1994',
+    phone: '+90 532 765 43 21',
+    email: 'marcus.chen@example.com',
+    department: 'Tech',
+    position: 'Junior'
+  },
+  {
+    id: '4',
+    firstName: 'Elena',
+    lastName: 'Petrov',
+    dateOfEmployment: '05/09/2021',
+    dateOfBirth: '14/07/1989',
+    phone: '+90 532 654 32 10',
+    email: 'elena.petrov@example.com',
+    department: 'Analytics',
+    position: 'Senior'
+  },
+  {
+    id: '5',
+    firstName: 'Gabriel',
+    lastName: 'Santos',
+    dateOfEmployment: '12/04/2022',
+    dateOfBirth: '03/12/1992',
+    phone: '+90 532 543 21 09',
+    email: 'gabriel.santos@example.com',
+    department: 'Tech',
+    position: 'Medior'
+  },
+  {
+    id: '6',
+    firstName: 'Zara',
+    lastName: 'Ahmed',
+    dateOfEmployment: '18/06/2021',
+    dateOfBirth: '29/08/1990',
+    phone: '+90 532 432 10 98',
+    email: 'zara.ahmed@example.com',
+    department: 'Analytics',
+    position: 'Junior'
+  },
+  {
+    id: '7',
+    firstName: 'Oliver',
+    lastName: 'Nielsen',
+    dateOfEmployment: '22/11/2022',
+    dateOfBirth: '16/04/1988',
+    phone: '+90 532 321 09 87',
+    email: 'oliver.nielsen@example.com',
+    department: 'Tech',
+    position: 'Senior'
+  },
+  {
+    id: '8',
+    firstName: 'Aria',
+    lastName: 'Nakamura',
+    dateOfEmployment: '14/02/2023',
+    dateOfBirth: '07/10/1995',
+    phone: '+90 532 210 98 76',
+    email: 'aria.nakamura@example.com',
+    department: 'Analytics',
+    position: 'Junior'
+  },
+  {
+    id: '9',
+    firstName: 'Diego',
+    lastName: 'Morales',
+    dateOfEmployment: '30/08/2021',
+    dateOfBirth: '19/01/1987',
+    phone: '+90 532 109 87 65',
+    email: 'diego.morales@example.com',
+    department: 'Tech',
+    position: 'Medior'
+  },
+  {
+    id: '10',
+    firstName: 'Luna',
+    lastName: 'Kowalski',
+    dateOfEmployment: '08/05/2022',
+    dateOfBirth: '24/06/1991',
+    phone: '+90 532 098 76 54',
+    email: 'luna.kowalski@example.com',
+    department: 'Analytics',
+    position: 'Senior'
+  },
+  {
+    id: '11',
+    firstName: 'Hassan',
+    lastName: 'Al-Rashid',
+    dateOfEmployment: '16/12/2022',
+    dateOfBirth: '11/09/1993',
+    phone: '+90 532 987 76 65',
+    email: 'hassan.al-rashid@example.com',
+    department: 'Tech',
+    position: 'Junior'
+  },
+  {
+    id: '12',
+    firstName: 'Valentina',
+    lastName: 'Rossi',
+    dateOfEmployment: '04/03/2021',
+    dateOfBirth: '28/02/1989',
+    phone: '+90 532 876 65 54',
+    email: 'valentina.rossi@example.com',
+    department: 'Analytics',
+    position: 'Medior'
+  },
+  {
+    id: '13',
+    firstName: 'Kai',
+    lastName: 'Larsson',
+    dateOfEmployment: '12/10/2022',
+    dateOfBirth: '15/12/1994',
+    phone: '+90 532 765 54 43',
+    email: 'kai.larsson@example.com',
+    department: 'Tech',
+    position: 'Senior'
+  },
+  {
+    id: '14',
+    firstName: 'Priya',
+    lastName: 'Sharma',
+    dateOfEmployment: '28/01/2023',
+    dateOfBirth: '09/05/1992',
+    phone: '+90 532 654 43 32',
+    email: 'priya.sharma@example.com',
+    department: 'Analytics',
+    position: 'Junior'
+  },
+  {
+    id: '15',
+    firstName: 'Noah',
+    lastName: 'Fischer',
+    dateOfEmployment: '14/07/2021',
+    dateOfBirth: '17/08/1988',
+    phone: '+90 532 543 32 21',
+    email: 'noah.fischer@example.com',
+    department: 'Tech',
+    position: 'Medior'
+  },
+  {
+    id: '16',
+    firstName: 'Amara',
+    lastName: 'Okafor',
+    dateOfEmployment: '26/04/2022',
+    dateOfBirth: '21/11/1990',
+    phone: '+90 532 432 21 10',
+    email: 'amara.okafor@example.com',
+    department: 'Analytics',
+    position: 'Senior'
+  },
+  {
+    id: '17',
+    firstName: 'Ethan',
+    lastName: 'O\'Connor',
+    dateOfEmployment: '18/09/2021',
+    dateOfBirth: '06/03/1995',
+    phone: '+90 532 321 10 09',
+    email: 'ethan.oconnor@example.com',
+    department: 'Tech',
+    position: 'Junior'
+  },
+  {
+    id: '18',
+    firstName: 'Yasmin',
+    lastName: 'El-Mansouri',
+    dateOfEmployment: '02/06/2022',
+    dateOfBirth: '30/07/1991',
+    phone: '+90 532 210 09 98',
+    email: 'yasmin.el-mansouri@example.com',
+    department: 'Analytics',
+    position: 'Medior'
+  },
+  {
+    id: '19',
+    firstName: 'Liam',
+    lastName: 'MacDonald',
+    dateOfEmployment: '08/11/2022',
+    dateOfBirth: '13/04/1987',
+    phone: '+90 532 109 98 87',
+    email: 'liam.macdonald@example.com',
+    department: 'Tech',
+    position: 'Senior'
+  },
+  {
+    id: '20',
+    firstName: 'Noor',
+    lastName: 'Hassan',
+    dateOfEmployment: '22/02/2023',
+    dateOfBirth: '26/09/1994',
+    phone: '+90 532 098 87 76',
+    email: 'noor.hassan@example.com',
+    department: 'Analytics',
+    position: 'Junior'
+  }
+];
